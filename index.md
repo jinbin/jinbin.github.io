@@ -18,7 +18,7 @@ tagline: with me ...
 <ul class="posts">
 	<li>Weibo : <a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
 	<li>Twitter : <a href="htttp://twitter.com/jinbinv" target="_BLANK">@jinbinv</a></li>
-	<li>Github : <a href="http://github.com/jinbin" target="_BLANK">@jinbinv</a></li>
+	<li>Github : <a href="http://github.com/jinbin" target="_BLANK">jinbin</a></li>
 </ul>
 
 #### About Me
