@@ -1,7 +1,7 @@
 ---
 layout: page
 title: It's time to escape
-tagline: with me ...
+tagline: with me ...              jinbin
 ---
 {% include JB/setup %}
 
