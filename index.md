@@ -13,11 +13,11 @@ tagline: with me ...
   {% endfor %}
 </ul>
 
-## 友情链接
+### 友情链接
 
 <ul class="posts">
-	<li>Weibo : <a href="http://weibo.com/jinbinforever">@金斌v</a></li>
-	<li>Twitter : <a href="htttp://twitter.com/jinbinv">@jinbinv</a></li>
+	<li>Weibo : <a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
+	<li>Twitter : <a href="htttp://twitter.com/jinbinv" target="_BLANK">@jinbinv</a></li>
 </ul>
 
 
