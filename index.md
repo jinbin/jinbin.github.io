@@ -1,7 +1,7 @@
 ---
 layout: page
 title: It's time to escape
-tagline: with me ...              jinbin
+tagline: with me ...
 ---
 {% include JB/setup %}
 
@@ -18,6 +18,10 @@ tagline: with me ...              jinbin
 <ul class="posts">
 	<li>Weibo : <a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
 	<li>Twitter : <a href="htttp://twitter.com/jinbinv" target="_BLANK">@jinbinv</a></li>
+	<li>Github : <a href="http://github.com/jinbin" target="_BLANK">@jinbinv</a></li>
 </ul>
 
-
+### About Me
+<ul class="posts">
+	<li>Email: bin.jinb@qq.com</li>
+</ul>
