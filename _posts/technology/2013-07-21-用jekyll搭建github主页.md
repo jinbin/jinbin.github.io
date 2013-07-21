@@ -16,7 +16,7 @@ tags: github
 [http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 #####官方教程(一步一步来，很好用)
-(http://jekyllbootstrap.com/)[http://jekyllbootstrap.com/]
+[http://jekyllbootstrap.com/](http://jekyllbootstrap.com/)
 
 #####参考
 [http://yanping.me/cn/blog/2011/12/15/building-static-sites-with-jekyll/](http://yanping.me/cn/blog/2011/12/15/building-static-sites-with-jekyll/)
