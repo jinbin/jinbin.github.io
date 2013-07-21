@@ -5,7 +5,7 @@ tagline: with me ...
 ---
 {% include JB/setup %}
 
-## Article
+## 文章列表
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -13,9 +13,11 @@ tagline: with me ...
   {% endfor %}
 </ul>
 
-## List
+## 友情链接
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<ul class="posts">
+	<li>Weibo : <a href="http://weibo.com/jinbinforever">@金斌v</a></li>
+	<li>Twitter : <a href="htttp://twitter.com/jinbinv">@jinbinv</a></li>
+</ul>
 
 
