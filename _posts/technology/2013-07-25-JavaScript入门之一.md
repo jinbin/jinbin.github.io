@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JS入门之一
+title: JavaScript入门之一
 category: 技术
 tags: Javascript
 ---
