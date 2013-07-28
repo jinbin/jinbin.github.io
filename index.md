@@ -1,7 +1,7 @@
 ---
 layout: page
-title: It's time to escape
-tagline: with me ...
+title: 我们的征途是星辰大海
+tagline: God helps those who help themselves
 ---
 {% include JB/setup %}
 
