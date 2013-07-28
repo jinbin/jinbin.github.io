@@ -23,7 +23,7 @@ tagline: It's time ...
    {% endfor %}
 </ul>
 
-#### About Me
+#### 关于博主
 <ul class="posts">
 	<li>Weibo : <a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
 	<li>Twitter : <a href="htttp://twitter.com/jinbinv" target="_BLANK">@jinbinv</a></li>
