@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 我们的征途是星辰大海
-tagline: God helps those who help themselves
+tagline: It's time ...
 ---
 {% include JB/setup %}
 
