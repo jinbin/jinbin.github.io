@@ -23,3 +23,8 @@ tags: github
 
 #####排查错误
 [http://www.mceiba.com/develop/jekyll-introduction.html](http://www.mceiba.com/develop/jekyll-introduction.html)
+
+#####经验教训
+######上传了文章之后，github却没有生效
+查看邮箱，可能会受到build error的邮件。  
+把代码下载到Linux，运行jekyll server，查看是否有报错，一般都是新增文章的markdown语法无法解析造成，修改语法，重新上传，搞定！
