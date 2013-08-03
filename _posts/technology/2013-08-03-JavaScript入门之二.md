@@ -13,7 +13,7 @@ tags: Javascript
 2. 事件的概念，onclick mouseover mouseout
 3. document.getElementById document.getElementsByTagName  
 4. 函数，匿名函数  
-5. 在href中假如js <a href="javascript:alert('a')">链接</a>  
+5. 在href中假如js \<a href="javascript:alert('a')">链接</a>  
 6. 对属性复制的两种方式 oTxt.value = "txt" oTxt['value'] = "txt"   
 7. style加样式，取样式都在行间  
 8. 样式优先级：a < 标签 < class < id < 行间   
