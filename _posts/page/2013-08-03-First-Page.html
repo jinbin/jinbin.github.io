@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<title>变色</title>
+<style>
+#div1
+{
+	width:200px;
+	height:200px;
+	background:red;
+}
+</style>
+<script>
+function changeColor(color)
+{
+	oDiv = document.getElementById("div1");
+	oDiv.style.background = color;
+}
+</script>
+</head>
+
+<body>
+<input type="button" value="变红" onclick="changeColor('red')" />
+<input type="button" value="变绿" onclick="changeColor('green')"/>
+<input type="button" value="变黄" onclick="changeColor('yellow')"/>
+<div id ="div1">
+</div>
+</body>
+</html>
