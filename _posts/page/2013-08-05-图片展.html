@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>图片展</title>
+<style>
+* {margin:0;padding:0}
+body {background:#CCCCCC;}
+#div1 {width:900px;height:300px;margin:100px auto;position:relative;background:red;overflow:hidden}
+#div1 ul {position:absolute;left:0;top:0}
+#div1 ul li {float:left;width:300px;height:300px;list-style:none;}
+</style>
+<script>
+window.onload = function ()
+	{
+		var oDiv = document.getElementById("div1");
+		var oUL = oDiv.getElementsByTagName("ul")[0];
+		var aLi = oUL.getElementsByTagName("li");
+		
+		oUL.innerHTML = oUL.innerHTML + oUL.innerHTML;
+		oUL.style.width = aLi[0].offsetWidth * aLi.length + "px";
+		
+		var move = function(){
+				if(oUL.offsetLeft < -oUL.offsetWidth/2)
+				{
+					oUL.style.left = '0';
+				}
+				oUL.style.left = oUL.offsetLeft - 2 + "px";
+		};
+		
+		var timer = setInterval(move,30);
+		
+		oUL.onmouseover = function(){
+			clearInterval(timer);
+		};
+		
+		oUL.onmouseout = function(){
+			timer = setInterval(move,30);
+		};
+	};
+</script>
+</head>
+
+<body>
+<div id="div1">
+	<ul>
+		<li><img src="/img/ym1.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym2.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym3.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym4.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym5.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym6.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym7.jpg" style="width:300px;height:300px"/></li>
+		<li><img src="/img/ym8.jpg" style="width:300px;height:300px"/></li>
+	</ul>
+</div>
+</body>
+</html>
