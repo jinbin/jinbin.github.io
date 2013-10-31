@@ -22,7 +22,8 @@ tags: github
 [http://yanping.me/cn/blog/2011/12/15/building-static-sites-with-jekyll/](http://yanping.me/cn/blog/2011/12/15/building-static-sites-with-jekyll/)
 
 #####排查错误
-[http://www.mceiba.com/develop/jekyll-introduction.html](http://www.mceiba.com/develop/jekyll-introduction.html)
+[http://www.mceiba.com/develop/jekyll-introduction.html](http://www.mceiba.com/develop/jekyll-introduction.html)   
+[http://chxt6896.github.io/blog/2012/02/13/blog-jekyll-native.html](http://chxt6896.github.io/blog/2012/02/13/blog-jekyll-native.html)
 
 #####经验教训
 ######上传了文章之后，github却没有生效
