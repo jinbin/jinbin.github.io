@@ -13,11 +13,11 @@ tagline: It's time ...
   {% endfor %}
 </ul>
 
-#### 推荐类目：文摘
+#### 推荐类目：技术
 
 <ul class="posts">
    {% for post in site.posts %}
-      {% if post.category == "文摘" %}
+      {% if post.category == "技术" %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
    {% endfor %}
