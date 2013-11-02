@@ -13,7 +13,7 @@ tagline: It's time ...
   {% endfor %}
 </ul>
 
-#### 推荐类目：技术
+#### 类目：技术
 
 <ul class="posts">
    {% for post in site.posts %}
