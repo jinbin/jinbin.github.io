@@ -6,7 +6,7 @@ tags: TDD
 ---
 {% include JB/setup %}
 
-翻译作品，原文请点击：[http://java.dzone.com/articles/how-waste-time-tdd](http://java.dzone.com/articles/how-waste-time-tdd)
+翻译作品，原文请点击：[http://andrzejonsoftware.blogspot.ie/2012/06/how-to-waste-time-on-tdd.html](http://andrzejonsoftware.blogspot.ie/2012/06/how-to-waste-time-on-tdd.html)
 
 (这篇博客最早是由Piotr Wlodarek在他的TheSingularity.pl发表的。我非常喜欢它所以将它翻译成了英文，这样就能有更多的人读到它啦。)
 
