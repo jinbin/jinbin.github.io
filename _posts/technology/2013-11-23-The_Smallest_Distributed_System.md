@@ -2,13 +2,13 @@
 layout: page  
 title: The Smallest Distributed System (1)   
 category: 技术   
-tags: Hacker    
+tags: 持续集成    
 ---
 {% include JB/setup %}
 
 翻译作品，原文见[http://www.paperplanes.de/2013/10/18/the-smallest-distributed-system.html](http://www.paperplanes.de/2013/10/18/the-smallest-distributed-system.html)。
 
-##最小的分布式系统
+##最小的分布式系统(1)
 
 Travis CI一开始仅仅是个想法，在当时甚至还有些理想化。在这个项目启动之前，开源社区还没有一个可用的持续集成系统。  
 
