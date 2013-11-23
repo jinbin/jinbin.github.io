@@ -7,7 +7,7 @@ tags: 持续集成
 {% include JB/setup %}
 
 
-##最小的分布式系统(1)
+##最小的分布式系统(2)
 
 ![架构图4](/image/The_Smallest_Distributed_System_04.jpg)
 
