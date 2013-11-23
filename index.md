@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 纵有疾风起，人生不言弃
+title: 纵有疾风起 人生不言弃
 tagline: Le vent se lève
 ---
 {% include JB/setup %}
