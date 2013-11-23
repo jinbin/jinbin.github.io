@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 我们的征途是星辰大海
-tagline: It's time ...
+title: 纵有疾风起，人生不言弃
+tagline: Le vent se lève, il faut tenter de vivre
 ---
 {% include JB/setup %}
 
@@ -25,10 +25,9 @@ tagline: It's time ...
 
 #### 关于博主
 <ul class="posts">
-	<li>Weibo : <a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
-	<li>Twitter : <a href="htttp://twitter.com/jinbinv" target="_BLANK">@jinbinv</a></li>
-	<li>Email: bin.jinb@qq.com</li>
-	<li>Github : <a href="http://github.com/jinbin" target="_BLANK">jinbin</a></li>
+	<li>Weibo：<a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
+	<li>Twitter：<a href="htttp://twitter.com/jinbinv" target="_BLANK">@jinbinv</a></li>
+	<li>邮箱：<a href="mailto:bin.jinb@qq.com">bin.jinb@qq.com</a></li>
+	<li>Github：<a href="http://github.com/jinbin" target="_BLANK">jinbin</a></li>
 </ul>
 
-#### 友情链接
