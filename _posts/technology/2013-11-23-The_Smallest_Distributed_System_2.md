@@ -37,11 +37,7 @@ Github API是一个有趣的例子。我们是Github API的重度用户，依靠
 
 我们开始隔离这些API请求，设置更短的超时时间。为了保证我们不会因为Github方面的中断而导致构建失败，我们同样加了重试机制。为了保证我们能够更好的处理外部的异常，我们的每一次重试都会依次延长过期时间。
 
-External APIs beyond your control need to be treated as something that can fail anytime. While you shouldn't try to isolate yourself from their failures, you need to decide how you handle them.
-
 你应该接受那些在你控制之外的外部API随时可能失败的现实。如果你不能将这些失败完全隔离，你就有必要考虑如果去处理他们。
-
-How to handle every single failure scenario is a business decision. Can we survive when we drop one build? Sure, it's not the end of the world. Should we just drop hundreds of builds because of a problem outside of our control? We shouldn't, because if anything, those builds matter to our customers.
 
 如何去处理每一个单点错误场景是基于商业上的考虑。我们可以承受一个构建出异常吗？当然，这不是世界末日。如果因为外部系统的问题，我们能够让数百个构建出现异常嘛？我们不能，因为无论什么原因，这些构建异常够影响到了我们的客户。
 
