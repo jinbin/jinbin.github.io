@@ -23,6 +23,7 @@ tagline: Le vent se lève
    {% endfor %}
 </ul>
 
+#### 类目：杂谈
 <ul class="posts">
    {% for post in site.posts %}
       {% if post.category == "杂谈" %}
