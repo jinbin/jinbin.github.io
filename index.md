@@ -23,6 +23,14 @@ tagline: Le vent se lève
    {% endfor %}
 </ul>
 
+<ul class="posts">
+   {% for post in site.posts %}
+      {% if post.category == "杂谈" %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+   {% endfor %}
+</ul>
+
 #### 关于博主
 <ul class="posts">
 	<li>Weibo：<a href="http://weibo.com/jinbinforever" target="_BLANK">@金斌v</a></li>
